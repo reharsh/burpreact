@@ -8,7 +8,7 @@ const Card = ({card}) => {
           <View>
             <Text style={styles.dish}>{card.dish}</Text>
             <View style={{flexDirection:'row'}}>
-            <Text style={{color: 'grey'}}>{card.location}    ₹{card.price} &#8226; {card.mintime} - {card.maxtime}</Text>
+            <Text style={{color: 'grey',fontSize:12}}>{card.location}    ₹{card.price} &#8226; {card.mintime} - {card.maxtime}</Text>
             </View>
           </View>
           <View style={styles.profile}>
@@ -31,10 +31,10 @@ const Card = ({card}) => {
     card: {
       width: '100%',
       backgroundColor: 'white',
-      marginVertical: 10,
+      marginBottom: 10,
     },
     dish: {
-      fontSize: 16,
+      fontSize: 15,
       fontWeight: "500",
       marginVertical: 2.5,
   

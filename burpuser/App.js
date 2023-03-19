@@ -1,18 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { StyleSheet, Text, View, Image } from 'react-native';
-import Card from './src/components/Card';
+import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
 import Header from './src/components/Header';
-import cards from './assets/data/cards.json';
+import Homescreen from './src/screens/Homescreen';
 
 export default function App() {
   return (
       <SafeAreaView>
         <Header/>
         <View style={styles.container}>
-          <Card card={cards[0]}/>
-          <Card card={cards[1]}/>
-          <StatusBar style="auto" />
+          <Homescreen/>
+          <StatusBar style={"auto"}/>
         </View>
       </SafeAreaView>
   );

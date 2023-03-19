@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: 'white',
     width : '100%',
-    aspectRatio: 20/3,
+    aspectRatio: 30/3,
     alignItems: 'center',
     justifyContent: 'center',
   },
