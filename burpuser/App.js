@@ -1,20 +1,29 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import Card from './src/components/Card';
+import Header from './src/components/Header';
+import cards from './assets/data/cards.json';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>burp</Text>
-      <StatusBar style="auto" />
-    </View>
+      <SafeAreaView>
+        <Header/>
+        <View style={styles.container}>
+          <Card card={cards[0]}/>
+          <Card card={cards[1]}/>
+          <StatusBar style="auto" />
+        </View>
+      </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
+    height: '100%',
+    backgroundColor: 'white',
     alignItems: 'center',
     justifyContent: 'center',
+    padding: 10,
   },
 });
