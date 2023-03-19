@@ -118,10 +118,10 @@
 }, {
   "id": "4",
   "dish": "chai + 3 plain pranthas",
-  "price": 69,
+  "price": 79,
   "mintime": "7:00",
   "maxtime": "7:30",
-  "rating": 4.9,
+  "rating": 3.9,
   "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant1.jpeg",
   "location": "L-Block, 360, New Vijay Nagar, Ghaziabad",
   "chef": "Kavita",
