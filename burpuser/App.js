@@ -7,6 +7,7 @@ import Homescreen from './src/screens/Homescreen';
 export default function App() {
   return (
       <SafeAreaView>
+        <Header/>
         <View style={styles.container}>
           <Homescreen/>
           <StatusBar style={"auto"}/>
