@@ -1,0 +1,104 @@
+[
+  {
+    "id": "1",
+    "dish": "Dish Name",
+    "price": "999",
+    "mintime": "2:00",
+    "maxtime": "3:00",
+    "orders": 4,
+    "createdAt": "2022-04-16T18:56:21.890Z",
+    "updatedAt": "2022-04-16T18:56:21.890Z",
+    "User": {
+      "id": "1",
+      "name": "Vadim",
+      "address": "Abc 1",
+      "lat": 46.86190499528364,
+      "lng": 28.54437769418778
+    }
+  },
+  {
+    "id": "2",
+    "dish": "Dish Name",
+    "price": "99",
+    "mintime": "4:00",
+    "maxtime": "5:00",
+    "orders": 3,
+    "createdAt": "2022-04-16T18:56:21.890Z",
+    "updatedAt": "2022-04-16T18:56:21.890Z",
+    "User": {
+      "id": "1",
+      "name": "bilo",
+      "address": "wall street",
+      "lat": 46.86190499528364,
+      "lng": 28.54437769418778
+    }
+  },
+  {
+    "id": "3",
+    "dish": "Dish Name",
+    "price": "9990",
+    "mintime": "19:00",
+    "maxtime": "19:30",
+    "orders": 8,
+    "createdAt": "2022-04-16T18:56:21.890Z",
+    "updatedAt": "2022-04-16T18:56:21.890Z",
+    "User": {
+      "id": "1",
+      "name": "dan harmon",
+      "address": "miami, us",
+      "lat": 46.86190499528364,
+      "lng": 28.54437769418778
+    }
+  },
+  {
+    "id": "1",
+    "dish": "Dish Name",
+    "price": "999",
+    "mintime": "2:00",
+    "maxtime": "3:00",
+    "orders": 4,
+    "createdAt": "2022-04-16T18:56:21.890Z",
+    "updatedAt": "2022-04-16T18:56:21.890Z",
+    "User": {
+      "id": "1",
+      "name": "Vadim",
+      "address": "Abc 1",
+      "lat": 46.86190499528364,
+      "lng": 28.54437769418778
+    }
+  },
+  {
+    "id": "2",
+    "dish": "Dish Name",
+    "price": "99",
+    "mintime": "4:00",
+    "maxtime": "5:00",
+    "orders": 3,
+    "createdAt": "2022-04-16T18:56:21.890Z",
+    "updatedAt": "2022-04-16T18:56:21.890Z",
+    "User": {
+      "id": "1",
+      "name": "bilo",
+      "address": "wall street",
+      "lat": 46.86190499528364,
+      "lng": 28.54437769418778
+    }
+  },
+  {
+    "id": "3",
+    "dish": "Dish Name",
+    "price": "9990",
+    "mintime": "19:00",
+    "maxtime": "19:30",
+    "orders": 8,
+    "createdAt": "2022-04-16T18:56:21.890Z",
+    "updatedAt": "2022-04-16T18:56:21.890Z",
+    "User": {
+      "id": "1",
+      "name": "dan harmon",
+      "address": "miami, us",
+      "lat": 46.86190499528364,
+      "lng": 28.54437769418778
+    }
+  }
+]
