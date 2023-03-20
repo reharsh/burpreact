@@ -2,8 +2,18 @@ import { View, Text, StyleSheet, Image } from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
 import React from 'react'
 import { useState } from 'react';
+import { useRoute } from '@react-navigation/native';
 
-const Dishdetails = ({dish}) => {
+const DEFAULT_IMAGE =
+  "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant1.jpeg";
+
+
+const Dishdetails = () => {
+    const route = useRoute();
+
+    const dish = route.params?.dish;
+    console.warn(dish);
+
     const [quantity, setQuantity] = useState(1);
 
     const onPlus = () => {
@@ -17,11 +27,10 @@ const Dishdetails = ({dish}) => {
     }
     const total = quantity*dish.price
   return (
-    <View style={styles.container}>
-        <Ionicons name='arrow-back-outline'
-        size={35} color='black' /> 
-        <Image source={{uri: dish.image}} style={styles.image} />
-        <Text style={styles.dishname}>{dish.dish}</Text>
+    <View>
+        <View style={styles.container}>
+       <Image source={{uri: dish.image ? dish.image : DEFAULT_IMAGE}} style={styles.image} />
+       <Text style={styles.dishname}>{dish.dish}</Text>
         <View style={{flexDirection:'row'}}>
             <Text style={styles.ldetails}>Chef:</Text>
             <Text style={styles.rdetails}>{dish.chef}</Text>
@@ -50,11 +59,12 @@ const Dishdetails = ({dish}) => {
             <Text style={styles.quantity}>{quantity}</Text>
             <Ionicons name='add-circle-outline' size={60} color='black' onPress={onPlus} />
         </View>
-        <View style={{alignItems:'center',justifyContent:'center'}}>
+        <View style={{alignItems:'center',justifyContent:'center',height:'25%'}}>
             <View style={styles.checkout}>
                 <Text style={{fontSize:23,color:'white',fontWeight:'bold'}}>₹{total}</Text>
             </View>
         </View>
+    </View>
     </View>
   )
 }
@@ -63,20 +73,21 @@ export default Dishdetails
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        flexDirection: 'column',
         width: '100%',
         backgroundColor: 'white',
-
+        justifyContent: 'center',
+        paddingHorizontal: 10,
     },
     image: {
         width: '100%',
         aspectRatio: 5/3,
-        marginTop: 30,
         marginBottom: 15
     },
     dishname: {
         fontWeight: 'bold',
         fontSize: 20,
+        backgroundColor: 'white',
     },
     rdetails:{
         fontSize: 15,
@@ -104,7 +115,7 @@ const styles = StyleSheet.create({
     },
     icons: {
         backgroundColor:'white',
-        height:200,
+        height:'20%',
         alignItems:'center',
         justifyContent:'center',
         marginTop:30,

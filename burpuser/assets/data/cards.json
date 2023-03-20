@@ -8,36 +8,7 @@
   "image": "https://marleyspoon.com/media/recipes/1018/main_photos/medium/WEB_ID00036_YellowSpinachDal-72ae67d3f6ee767b5aaecbe416ca22d7.jpg",
   "location": "L-Block, 386, New Vijay Nagar",
   "chef": "Madhubhasi",
-  "tag": "Lunch",
-  "dishes": [
-    {
-      "name": "Cheese Tequeños",
-      "description": "6 pieces of chese with sauce.",
-      "price": 6.90,
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
-    },
-    {
-      "name": "Hamburger La Super Cabo Burger",
-      "description": "Double meat, gouda cheese, cheddar cheese, cooked ham, bacon, egg, salad and rustic potatoes.",
-      "price": 8.90,
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
-    },
-    {
-      "name": "U.S.A. Burger",
-      "description": "Beef, gouda cheese, cheddar cheese, cooked ham, bacon, egg and salad.",
-      "price": 5.40
-    },
-    {
-      "name": "Slices of Llanero Cheese",
-      "description": "Ripe plantain with cheese and palm honey.",
-      "price": 5.90
-    },
-    {
-      "name": "Papas Locas El Cabo",
-      "description": "French fries with shredded chicken, gouda cheese and ham.",
-      "price": 7.90
-    }
-  ]
+  "tag": "Lunch"
 }, {
     "id": "2",
     "dish": "Chole Bhature + Chach",
@@ -48,35 +19,7 @@
     "image": "https://i.ytimg.com/vi/csfIOfMnRGg/maxresdefault.jpg",
     "location": "49th street, NY venue , New York, NY",
     "chef": "Madhavida",
-    "tag": "Breakfast",
-    "dishes": [
-    {
-      "name": "Cajun Ribs",
-      "description": "For lovers of a spicy touch. Ribs bathed in our Original sauce accompanied by Cajun spices. Served with French fries and coleslaw.",
-      "price": 18.95
-    },
-    {
-      "name": "The Original Baby Backs",
-      "description": "The house specialty. Pork ribs cooked on the barbecue and marinated with our original barbecue sauce. Served with French fries and coleslaw.",
-      "price": 19.95
-    },
-    {
-      "name": "Carolina Honey",
-      "description": "Our famous ribs marinated with our Carolina honey sauce, a mixture of honey with our original sauce. Ideal for those looking for a sweet touch. Served with French fries and coleslaw.",
-      "price": 18.95,
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
-    },
-    {
-      "name": "Onion Rings",
-      "description": "Los tradicionales aros de cebolla de tony roma´s dorados, crujientes y ligeros. Únicos en el mundo, acompañados de salsa BBQ.",
-      "price": 6.95
-    },
-    {
-      "name": "Nachos Tony Roma's",
-      "description": "The best selling nachos! with our blend of melted cheeses, accompanied by guacamole, crispy bacon, ranch beans, and sour cream.",
-      "price": 10.95
-    }
-  ]
+    "tag": "Breakfast"
 }, {
     "id": "3",
     "dish": "Aloo Paranthe + tamatar ki sabji",
@@ -84,37 +27,10 @@
     "mintime": "19:00",
     "maxtime": "19:30",
     "rating": 4.9,
-    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant1.jpeg",
+    "image": "https://cdn2.foodviva.com/static-content/food-images/north-indian-recipes/alu-paratha-recipe/alu-paratha-recipe.jpg",
     "location": "L-Block, 360, New Vijay Nagar, Ghaziabad",
     "chef": "Kavita",
-    "tag": "Dinner",
-    "dishes": [
-    {
-      "name": "Burger Mustang",
-      "description": "Homemade bread, burger sauce, lettuce, sweet and sour pickle, bacon, cheddar and BBQ sauce. Beef 180 grams.",
-      "price": 5.90     
-    },
-    {
-      "name": "Alabama bread",
-      "description": "Artisan bread, butter sauce, garlic, BBQ chicken and cheddar.",
-      "price": 3.00   
-    },
-    {
-      "name": "New York Burger",
-      "description": "Homemade bread, lettuce, burger sauce, 180 grams of beef, goat cheese and roasted apple.",
-      "price": 5.90     
-    },
-    {
-      "name": "Mac & Cheese Burger",
-      "description": "Homemade bread, lettuce, burger sauce, 180 grams of beef, mac and cheese, and American-style bacon.",
-      "price": 5.90     
-    },
-    {
-      "name": "Nachos Brothers",
-      "description": "Nachos, guacamole, cheddar sauce, beans, bacon, and cream cheese.",
-      "price": 5.20     
-    }
-  ]
+    "tag": "Dinner"
 }, {
   "id": "4",
   "dish": "chai + 3 plain pranthas",
@@ -122,35 +38,8 @@
   "mintime": "7:00",
   "maxtime": "7:30",
   "rating": 3.9,
-  "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant1.jpeg",
+  "image": "data:image/jpeg;base64,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",
   "location": "L-Block, 360, New Vijay Nagar, Ghaziabad",
   "chef": "Kavita",
-  "tag": "Breakfast",
-  "dishes": [
-    {
-      "name": "English burger",
-      "description": "Beef with bacon, portobello mushrooms, tomato, cheddar cheese, grilled egg and our smoked sauce.",
-      "price": 14.90     
-    },
-    {
-      "name": "Mexican Burger",
-      "description": "Beef, with pico de gallo, veggie chili, cheddar cheese, guacamole and smoked sauce.",
-      "price": 14.90     
-    },
-    {
-      "name": "Tequeños",
-      "description": "Crispy sticks filled with melted cheese accompanied by tomato chutney.",
-      "price": 9.90    
-    },
-    {
-      "name": "Starters Combo",
-      "description": "Tequeños, crispy onion and chicken delicacies.",
-      "price": 13.90    
-    },
-    {
-      "name": "Cesar Salad",
-      "description": "Green sprouts, pieces of grilled bacon, chicken delicacies, grated Parmesan, muffin croutons and fried onion confetti dressed with Caesar sauce.",
-      "price": 10.50     
-    }
-  ]
+  "tag": "Breakfast"
 }]

@@ -9,7 +9,6 @@ export default function Homescreen() {
     <View>
         <FlatList data={cards} renderItem={({item}) => <Card card={item}/>}
           showsVerticalScrollIndicator={false}/>
-          <Header/>
     </View>
   );
 }

@@ -1,8 +1,16 @@
-import {Text, StyleSheet, View, Image} from 'react-native'
+import {Text, StyleSheet, View, Image, Pressable} from 'react-native'
+import { useNavigation } from '@react-navigation/native';
 
 const Card = ({card}) => {
+
+  const navigation = useNavigation();
+
+  const onPress = () => {
+            navigation.navigate('Dishdetails',{dish: card});
+  };
+
     return(
-      <View style={styles.card}>
+      <Pressable style={styles.card} onPress={onPress}>
       <Image source={{uri:card.image}} style={styles.image} />
         <View style={{flexDirection:'row',justifyContent: 'space-between'}}>
           <View>
@@ -16,13 +24,16 @@ const Card = ({card}) => {
                 <Text>{card.rating}</Text>
             </View>
         </View>
-      </View>
+      </Pressable>
     )
   };
 
   export default Card;
 
   const styles = StyleSheet.create({
+    container: {
+      
+    },
     image : {
       width: '100%',
       aspectRatio: 5/3,
@@ -32,6 +43,7 @@ const Card = ({card}) => {
       width: '100%',
       backgroundColor: 'white',
       marginBottom: 10,
+      paddingHorizontal: 10,
     },
     dish: {
       fontSize: 15,
