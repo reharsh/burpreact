@@ -10,8 +10,8 @@ const Addorder = () => {
             </View>
         <View style={styles.input}>
             <Text style={styles.text}>Add Dish</Text>
-            <Text style={styles.text}>Add Dish</Text>
-            <Text style={styles.text}>Add Dish</Text>
+            <Text style={styles.text}>Price</Text>
+            <Text style={styles.text}>Pickup Time</Text>
         </View>
         </View>
         <View style={styles.bottom}>

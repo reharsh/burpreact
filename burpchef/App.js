@@ -8,8 +8,8 @@ import Addorder from './src/screens/addorder';
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Homescreen/>
-      {/* <Addorder/> */}
+      {/* <Homescreen/> */}
+      <Addorder/>
       <StatusBar style={'auto'}/>
     </SafeAreaView>
   );
