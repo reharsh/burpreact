@@ -3,11 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import Homescreen from './src/screens/Homescreen';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Card from './src/components/Card';
+import Addorder from './src/screens/addorder';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Homescreen/>
+      {/* <Homescreen/> */}
+      <Addorder/>
       <StatusBar style={'auto'}/>
     </SafeAreaView>
   );
