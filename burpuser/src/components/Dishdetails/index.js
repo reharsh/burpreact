@@ -12,7 +12,6 @@ const Dishdetails = () => {
     const route = useRoute();
 
     const dish = route.params?.dish;
-    console.warn(dish);
 
     const [quantity, setQuantity] = useState(1);
 
